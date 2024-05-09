@@ -41,7 +41,7 @@
       .horizontal-menu a {
             float: left; 
             display: block;
-            color: white; 
+            color: black; 
             text-align: center;
             padding: 14px 16px; 
             text-decoration: none; 
