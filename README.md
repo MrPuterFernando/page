@@ -6,7 +6,7 @@
             width: 100px; 
             height: 100px; 
             background-image: url('picture.ico');
-            border-radius: 50%;
+            border-size: cover;
         }
     </style>   
    <style>
