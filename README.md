@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
   <head>
     <title>Page</title>
   </head>
