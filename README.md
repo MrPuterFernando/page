@@ -17,6 +17,10 @@
     </style>
 </head>
 <body>
+     <header>
+        <img src="download.jpg" alt="Logo">
+        <h1>Page</h1>
+    </header>
     <ul>
         <button><a href="#">Home</a></button>
         <button><a href="#">About</a></button>
