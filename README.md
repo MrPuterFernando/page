@@ -3,7 +3,7 @@
    <meta charset="utf-8">
     <title>My Web Page</title>
      <download.jpg>
-        <link rel="icon" href="download.jpg" type="image/jpg">
+        <link rel="icon" href="picture.ico" type="image/jpg">
     <style>
         body {
             background-image: url('Screenshot 2024-05-07 193200.png');
@@ -18,7 +18,7 @@
 </head>
 <body>
      <header>
-        <img src="download.jpg" alt="Logo">
+        <img src="picture.ico" alt="Logo">
         <h1>Page</h1>
     </header>
     <ul>
