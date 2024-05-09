@@ -39,12 +39,14 @@
 </head>
 <body>
     <div class="circle-logo"></div>
+  <center>
     <ul>
         <button><a href="#">Home</a></button>
         <button><a href="#">About</a></button>
         <button><a href="#">Services</a></button>
         <button><a href="#">Contact</a></button>
     </ul>
+  </center>
     <h1><font color="white">Hello, world!</font></h1>
     <p><font color="white">Welcome to my website.</font></p>
 </body>
