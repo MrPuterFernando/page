@@ -47,7 +47,7 @@
             text-decoration: none; 
         }
         .horizontal-menu a:hover {
-            background-color: #555;
+            background-color: #9ea700;
         }
     </style>
 </head>
