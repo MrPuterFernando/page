@@ -1,5 +1,13 @@
 <html>
 <head>
+    <style>
+        .circle-logo {
+            width: 100px; 
+            height: 100px; 
+            background-color: #0074D9;
+            border-radius: 50%;
+        }
+    </style>   
    <style>
         .header img {
             float: left;
@@ -31,6 +39,7 @@
     </style>
 </head>
 <body>
+    <div class="circle-logo"></div>
      <div class="header">
         <img src="picture.ico" alt="Logo">
         <h1>Page</h1>
