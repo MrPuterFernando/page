@@ -35,14 +35,19 @@
     </style>
     <style>
         .horizontal-menu {
-            width: 200px; 
+            background-color: #333;
+            overflow: hidden; 
         }
-        .horizontal-menu a {
-            background-color: #eee; 
-            color: black; 
-            display: block; 
-            padding: 12px; 
+      .horizontal-menu a {
+            float: left; 
+            display: block;
+            color: white; 
+            text-align: center;
+            padding: 14px 16px; 
             text-decoration: none; 
+        }
+        .horizontal-menu a:hover {
+            background-color: #555;
         }
     </style>
 </head>
