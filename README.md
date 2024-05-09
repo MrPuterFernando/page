@@ -2,8 +2,8 @@
 <head>
     <meta charset="utf-8">
         <title>My Web Page</title>
-        <!-- Add icon link -->
-        <link rel="icon" href="path/to/your/logo.png" type="image/png">
+        <download.jpg>
+        <link rel="icon" href="download.jpg" type="image/png">
     <style>
         body {
             background-image: url('Screenshot 2024-05-07 193200.png');
