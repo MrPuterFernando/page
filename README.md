@@ -9,8 +9,17 @@
             background-size: 100% 100%;
         }
     </style>
+    <style>
+        settings
+    </style>
 </head>
 <body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
     <h1><font color="white">Hello, world!</font></h1>
     <p><font color="white">Welcome to my website.</font></p>
 </body>
