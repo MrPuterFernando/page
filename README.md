@@ -34,10 +34,10 @@
         }
     </style>
     <style>
-        .vertical-menu {
+        .horizontal-menu {
             width: 200px; 
         }
-        .vertical-menu a {
+        .horizontal-menu a {
             background-color: #eee; 
             color: black; 
             display: block; 
