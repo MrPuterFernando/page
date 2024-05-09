@@ -3,7 +3,10 @@
   <head>
     <title>Page</title>
   </head>
-  <body>
+  <style>
+    body {
+      background-image: url ('') ;
+  </style>
     <h1>
       Hello!
     </h1>
