@@ -1,5 +1,19 @@
 <html>
 <head>
+   <style>
+        .header img {
+            float: left;
+            width: 100px; 
+            height: 100px; 
+            background: #555; 
+        }
+        .header h1 {
+            position: relative;
+            top: 18px; 
+            left: 10px; 
+        }
+      
+   </style>
    <meta charset="utf-8">
     <title>My Web Page</title>
      <download.jpg>
@@ -17,10 +31,10 @@
     </style>
 </head>
 <body>
-     <header>
+     <div class="header">
         <img src="picture.ico" alt="Logo">
         <h1>Page</h1>
-    </header>
+    </div>
     <ul>
         <button><a href="#">Home</a></button>
         <button><a href="#">About</a></button>
