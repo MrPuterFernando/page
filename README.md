@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>My Web Page</title>
+  <title> My Web Page</title>
     <style>
         .circle-logo {
             ulr: ('picture.ico');
