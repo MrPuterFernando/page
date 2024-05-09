@@ -40,7 +40,7 @@
     </style>
 </head>
 <body>
-    <div class="circle-logo"></div>
+    <div class="circle-logo"><img src="picture.ico"></div>
      <div class="header">
         <img src="picture.ico" alt="Logo">
         <h1>Page</h1>
