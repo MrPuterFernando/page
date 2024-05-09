@@ -39,10 +39,6 @@
 </head>
 <body>
     <div class="circle-logo"></div>
-     <div class="header">
-        <img src="picture.ico" alt="Logo">
-        <h1>Page</h1>
-    </div>
     <ul>
         <button><a href="#">Home</a></button>
         <button><a href="#">About</a></button>
