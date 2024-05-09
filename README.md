@@ -4,7 +4,7 @@
     <style>
         .circle-logo {
             ulr: ('picture.ico');
-            width: 200px; 
+            width: 100px; 
             height: 200px; 
             border-radius: 50%;
             background-image: url('picture.ico');
