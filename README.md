@@ -1,7 +1,7 @@
 <html>
 <head>
-    <meta charset="utf-8">
-        <title>My Web Page</title>
+  <title>My Web Page</title>
+      <meta charset="utf-8">
         <download.jpg>
         <link rel="icon" href="download.jpg" type="image/png">
     <style>
