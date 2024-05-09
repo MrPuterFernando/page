@@ -52,6 +52,9 @@
     </style>
 </head>
 <body>
+  <header>
+    <h1>MY WEB PAGE</h1>
+  </header>
     <div class="circle-logo"></div>
   <center>
     <div class="horizontal-menu">
