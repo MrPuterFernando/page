@@ -5,7 +5,7 @@
             ulr: ('picture.ico');
             width: 100px; 
             height: 100px; 
-            background-color: #0074D9;
+            background-image: url('picture.ico');
             border-radius: 50%;
         }
     </style>   
