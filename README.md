@@ -2,7 +2,7 @@
 <head>
     <style>
         .circle-logo {
-            ulr:('picture.ico');
+            ulr: ('picture.ico');
             width: 100px; 
             height: 100px; 
             background-color: #0074D9;
