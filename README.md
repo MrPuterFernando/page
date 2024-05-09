@@ -54,7 +54,7 @@
 <body>
   <header>
     <img src="picture.ico">
-    <h1>MY WEB PAGE</h1>
+    <h1><u>MY WEB PAGE</u></h1>
   </header>
     <div class="circle-logo"></div>
   <center>
