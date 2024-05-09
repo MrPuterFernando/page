@@ -4,7 +4,7 @@
     <style>
         .circle-logo {
             ulr: ('picture.ico');
-            width: 100px; 
+            width: 200px; 
             height: 200px; 
             border-radius: 50%;
             background-image: url('picture.ico');
@@ -39,7 +39,7 @@
             overflow: hidden; 
         }
       .horizontal-menu a {
-            float: left; 
+            float: right; 
             display: block;
             color: black; 
             text-align: center;
