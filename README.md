@@ -1,9 +1,9 @@
 <html>
 <head>
-  <title>My Web Page</title>
-      <meta charset="utf-8">
-        <download.jpg>
-        <link rel="icon" href="download.jpg" type="image/png">
+   <meta charset="utf-8">
+    <title>My Web Page</title>
+     <download.jpg>
+        <link rel="icon" href="download.jpg" type="image/jpg">
     <style>
         body {
             background-image: url('Screenshot 2024-05-07 193200.png');
