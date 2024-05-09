@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>Welcome to my website.</p>
+    <h1><font color="white">Hello, world!</font></h1>
+    <p><font color="white">Welcome to my website.</font></p>
 </body>
 </html>
