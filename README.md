@@ -49,7 +49,7 @@
 <body>
     <div class="circle-logo"></div>
   <center>
-    <div class="vertical-menu">
+    <div class="horizontal-menu">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
