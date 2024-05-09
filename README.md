@@ -2,6 +2,7 @@
 <head>
     <style>
         .circle-logo {
+            ulr:('picture.ico');
             width: 100px; 
             height: 100px; 
             background-color: #0074D9;
@@ -39,7 +40,7 @@
     </style>
 </head>
 <body>
-    <div class="circle-logo"><img src="Screenshot 2024-05-07 193200.png"></div>
+    <div class="circle-logo"></div>
      <div class="header">
         <img src="picture.ico" alt="Logo">
         <h1>Page</h1>
