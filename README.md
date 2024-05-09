@@ -53,6 +53,7 @@
 </head>
 <body>
   <header>
+    <circle logo="picture.ico">
     <h1>MY WEB PAGE</h1>
   </header>
     <div class="circle-logo"></div>
