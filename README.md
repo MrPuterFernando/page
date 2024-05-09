@@ -34,7 +34,16 @@
         }
     </style>
     <style>
-        settings
+        .vertical-menu {
+            width: 200px; 
+        }
+        .vertical-menu a {
+            background-color: #eee; 
+            color: black; 
+            display: block; 
+            padding: 12px; 
+            text-decoration: none; 
+        }
     </style>
 </head>
 <body>
