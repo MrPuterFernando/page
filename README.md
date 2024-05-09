@@ -15,10 +15,10 @@
 </head>
 <body>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <button><a href="#">Home</a></button>
+        <button><a href="#">About</a></button>
+        <button><a href="#">Services</a></button>
+        <button><a href="#">Contact</a></button>
     </ul>
     <h1><font color="white">Hello, world!</font></h1>
     <p><font color="white">Welcome to my website.</font></p>
