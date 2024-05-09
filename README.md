@@ -43,7 +43,7 @@
             display: block;
             color: black; 
             text-align: center;
-            padding: 14px 16px; 
+            padding: 14px 20px; 
             text-decoration: none; 
         }
         .horizontal-menu a:hover {
