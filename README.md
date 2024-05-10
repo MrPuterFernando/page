@@ -2,10 +2,11 @@
 <head>
   <title> My Web Page</title>
 <style>
-  @font-face {
-    font-family: Satisfy;
-    src: ulr('Satisfy.zip');
-            }
+  .satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 </style>
     <style>
         .circle-logo {
@@ -58,7 +59,7 @@
     </style>
     <style>
       h1 {
-        fomt-family: Satisfy;
+        fomt-family: "Satisfy", cursive;
         color: red;
           }
     </style>
