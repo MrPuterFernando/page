@@ -2,10 +2,10 @@
 <head>
     <title> My Web Page</title>
    <meta charset="utf-8">  
-  <link rel="https://fonts.google.com/specimen/Satisfy?preview.layout=grid">
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Satisfy&dis">
 <style>
   body {
-          font-family: grid;
+          font-family: Satisfy&dis;
           font-size: 40xp;
     }
 </style>
