@@ -1,12 +1,13 @@
 <html>
 <head>
-  <title> My Web Page</title>
+   <meta charset="utf-8">
+   <title> My Web Page</title>
+  <link rel="https://fonts.google.com/specimen/Satisfy?preview.layout=grid">
 <style>
-  .satisfy-regular {
-  font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
+  body {
+          font-family: grid;
+          font-size: 40xp;
+    }
 </style>
     <style>
         .circle-logo {
