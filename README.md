@@ -29,7 +29,7 @@
         .header h1 {
             position: relative;
             top: 30px; 
-            left: 10px; 
+            right: 10px; 
         }
       
    </style>
