@@ -1,9 +1,12 @@
 <html>
 <head>
   <title> My Web Page</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: Satisfy;
+    src: ulr('Satisfy.zip');
+            }
+</style>
     <style>
         .circle-logo {
             ulr: ('picture.ico');
@@ -56,14 +59,14 @@
 </head>
 <body>
   <header>
-  <h1><u><font color="white">MY WEB PAGE</font></u></h1>
+  <h1><u><font family="Satisfy"><font color="white">MY WEB PAGE</font></font></u></h1>
   </header>
     <div class="circle-logo"></div>
   <center>
     <div class="horizontal-menu">
-       <il><a href="#">Home</a></il>
-        <il><a href="#">About</a></il>
-        <il><a href="#">Services</a></il>
+       <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
     </div>   
   </center>
     <h1><font color="white">Hello, world!</font></h1>
