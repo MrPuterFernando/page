@@ -1,6 +1,13 @@
 <html>
 <head>
   <title> My Web Page</title>
+  <style>
+  @font-face {
+    font-family: 'Satisfy';
+    src: ulr('https://fonts.google.com/specimen/Satisfy?query=Sideshow') format ('opentype')
+    font-weight: normal;
+  }
+  </style>
     <style>
         .circle-logo {
             ulr: ('picture.ico');
