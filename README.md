@@ -56,17 +56,23 @@
             background-color: #9ea700;
         }
     </style>
+    <style>
+      h1 {
+        fomt-family: Satisfy;
+        color: red;
+          }
+    </style>
 </head>
 <body>
   <header>
-  <h1><u><font family="Satisfy"><font color="white">MY WEB PAGE</font></font></u></h1>
+  <h1><u><font-family:"Satisfy";><font color="white">MY WEB PAGE</font></font></u></h1>
   </header>
     <div class="circle-logo"></div>
   <center>
     <div class="horizontal-menu">
-       <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+      <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
     </div>   
   </center>
     <h1><font color="white">Hello, world!</font></h1>
