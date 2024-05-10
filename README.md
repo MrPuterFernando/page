@@ -20,13 +20,7 @@
         }
     </style>   
    <style>
-        .header img {
-            float: left;
-            width: 100px; 
-            height: 100px; 
-            background: #555; 
-        }
-        .header h1 {
+        header h1 {
             position: relative;
             top: 30px; 
             right: 10px; 
