@@ -67,7 +67,7 @@
 </head>
 <body>
   <header>
-  <center><div><h1><u><font color="white">MY WEB PAGE</font></u></h1></div></center>
+  <h1><center><div><u><font color="white">MY WEB PAGE</font></u></div></center></h1>
   </header>
     <div class="circle-logo"></div>
   <center>
