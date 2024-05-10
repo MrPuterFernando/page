@@ -1,13 +1,9 @@
 <html>
 <head>
   <title> My Web Page</title>
-  <style>
-  @font-face {
-    font-family: 'Sideshow';
-    src: ulr('https://fonts.google.com/specimen/Satisfy?query=Sideshow') format ('opentype')
-    font-weight: normal;
-  }
-  </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <style>
         .circle-logo {
             ulr: ('picture.ico');
