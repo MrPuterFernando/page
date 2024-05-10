@@ -58,9 +58,9 @@
     <div class="circle-logo"></div>
   <center>
     <div class="horizontal-menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
+       <il><a href="#">Home</a></il>
+        <il><a href="#">About</a></il>
+        <il><a href="#">Services</a></il>
     </div>   
   </center>
     <h1><font color="white">Hello, world!</font></h1>
