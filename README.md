@@ -28,7 +28,7 @@
         }
         .header h1 {
             position: relative;
-            top: 18px; 
+            top: 30px; 
             left: 10px; 
         }
       
