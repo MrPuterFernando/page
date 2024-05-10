@@ -1,7 +1,7 @@
 <html>
 <head>
-   <meta charset="utf-8">
-   <title> My Web Page</title>
+    <title> My Web Page</title>
+   <meta charset="utf-8">  
   <link rel="https://fonts.google.com/specimen/Satisfy?preview.layout=grid">
 <style>
   body {
@@ -67,7 +67,7 @@
 </head>
 <body>
   <header>
-  <h1><u><font color="white">MY WEB PAGE</font></u></h1>
+  <div><h1><u><font color="white">MY WEB PAGE</font></u></h1></div>
   </header>
     <div class="circle-logo"></div>
   <center>
