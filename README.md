@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <style>
         button {
-                   width: 200;
-                   hight: 100;
-                   border-radius: 50%;
-                   background-color: #0033f9;
+                   width: 300;
+                   hight: 200;
+                   border-radius: 25%;
+                   background-color: #3167ef;
             }
     </style>
 <style>
@@ -84,6 +84,6 @@
   </center>
     <h1><font color="white">Hello, world!</font></h1>
     <p><font color="white">Welcome to my website.</font></p>
-    <button>Download</button>
+    <button><font color="white">Download</font></button>
 </body>
 </html>
