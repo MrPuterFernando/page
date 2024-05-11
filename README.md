@@ -1,11 +1,14 @@
 <html>
-<head>
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Web Page</title>
-   <meta charset="utf-8">  
-  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Satisfy&dis">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <style>
   body {
-          font-family: Satisfy&dis;
+          font-family: Satisfy&display=swap;
           font-size: 40xp;
     }
 </style>
@@ -54,7 +57,7 @@
     </style>
     <style>
       h1 {
-        fomt-family: "Satisfy", cursive;
+        fomt-family: Satisfy&display=swap;
         color: red;
           }
     </style>
