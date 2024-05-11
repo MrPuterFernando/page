@@ -16,10 +16,10 @@
         .circle-logo {
             ulr: ('picture.ico');
             width: 200px; 
-            height: 200px; 
+            height: 175px; 
             border-radius: 25%;
             background-image: url('picture.ico');
-            border-size: triangle;
+            border-size: cover;
         }
     </style>   
    <style>
