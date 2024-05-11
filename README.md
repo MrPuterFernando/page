@@ -19,7 +19,7 @@
             height: 200px; 
             border-radius: 25%;
             background-image: url('picture.ico');
-            border-size: cover;
+            border-size: triangle;
         }
     </style>   
    <style>
