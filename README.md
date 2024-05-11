@@ -12,6 +12,7 @@
                    hight: 200;
                    border-radius: 25%;
                    background-color: #3167ef;
+                   border-size: square;
             }
     </style>
 <style>
