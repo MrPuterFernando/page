@@ -84,7 +84,7 @@
     </div>   
   </center>
     <h1><font color="white">Hello, world!</font></h1>
-    <p><font color="white">Welcome to my website.</font></p>
+    <center><p><font color="white">Welcome to my website.</font></p></center>
     <button><font color="white">Download</font></button>
 </body>
 </html>
