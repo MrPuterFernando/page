@@ -6,6 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        button {
+                   width: 200;
+                   hight: 100;
+                   border-radius: 50%;
+                   background-color: #0033f9;
+            }
+    </style>
 <style>
   body {
           font-family: Satisfy&display=swap;
@@ -16,8 +24,8 @@
         .circle-logo {
             ulr: ('picture.ico');
             width: 200px; 
-            height: 175px; 
-            border-radius: 25%;
+            height: 200px; 
+            border-radius: 50%;
             background-image: url('picture.ico');
             border-size: cover;
         }
@@ -76,5 +84,6 @@
   </center>
     <h1><font color="white">Hello, world!</font></h1>
     <p><font color="white">Welcome to my website.</font></p>
+    <button>Download</button>
 </body>
 </html>
