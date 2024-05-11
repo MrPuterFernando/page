@@ -17,7 +17,7 @@
             ulr: ('picture.ico');
             width: 200px; 
             height: 200px; 
-            border-radius: 50%;
+            border-radius: 25%;
             background-image: url('picture.ico');
             border-size: cover;
         }
