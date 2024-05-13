@@ -70,6 +70,13 @@
         color: red;
           }
     </style>
+    <style>
+        font-family {
+                       font-size: 25px;
+                       font-color: #9bd600;
+                       font-family: ulr('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+            }
+    </style>
 </head>
 <body>
   <header>
