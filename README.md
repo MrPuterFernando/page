@@ -40,7 +40,7 @@
     <style>
         button {
             width: 100;
-            height: 200;
+            height: 40;
             background-color: #1c87c9;
             border-radius: 12px;
             border: none;
@@ -48,7 +48,7 @@
             cursor: pointer;
             display: inline-block;
             font-family: sans-serif;
-            font-size: 20px;
+            font-size: 40px;
             padding: 5px 15px;
             text-align: center;
             text-decoration: none;
