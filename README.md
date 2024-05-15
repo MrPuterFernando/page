@@ -93,9 +93,11 @@
     <div class="circle-logo"></div>
   <center>
     <div class="horizontal-menu">
-        <h1><a href="#">Home</a></h1>
-        <h1><a href="#">About</a></h1>
-        <h1><a href="#">Services</a></h1>
+        <h1>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+        </h1>
     </div>   
   </center>
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
