@@ -101,7 +101,7 @@
             overflow: hidden; 
         }
       .horizontal-menu a {
-            float: center; 
+            float: right; 
             display: block;
             color: black; 
             text-align: center;
