@@ -83,7 +83,7 @@
             100% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
             }
        button:hover {
-                        animation: glowing 1300ms;
+                        animation: glowing 1300ms infinite;
                 }
        @keyframes glowing {
             0% { background-color: #9c0000; box-shadow: 0 0 5px #9c0000; }
