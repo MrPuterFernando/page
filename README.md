@@ -50,7 +50,7 @@
             padding: 5px 15px;
             text-align: center;
             text-decoration: none;
-            animation: glowing 1300ms;
+            animation: glowing 1300ms infinity;
             }
         button-hover {
                        animation: glowing 1300ms infinity; 
