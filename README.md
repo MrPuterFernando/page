@@ -13,6 +13,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@100..900&display=swap" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet">
+    <style>
+        // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    .noto-serif-sinhala-<uniquifier> {
+      font-family: "Noto Serif Sinhala", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+}
+    </style>
     <style>
         .bad-script-regular {
                         font-family: "Bad Script", cursive;
@@ -26,6 +44,11 @@
                             font-weight: 400;
                             font-style: normal;
                        }
+    </style>
+    <style>
+        h6{
+                font-family: Noto Serif Sinhala, serif;
+            }
     </style>
     <style>
        h1 {
@@ -138,7 +161,7 @@
         </h2>
     </div>   
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
-    <h6><center><p><font color="white" size="5">Welcome to my website.</font></p></center></h6>
+    <h6><center><p><font color="white" size="5">ආයුබෝවන්!!.</font></p></center></h6>
   <center><button type="submit" class="button">asd</button></center>  
 </body>
 </html>
