@@ -75,7 +75,8 @@
             padding: 5px 15px;
             text-align: center;
             text-decoration: none;
-            animation: glowing 1300ms infinite;      
+            animation: glowing 1300ms infinite; 
+            }
         @keyframes glowing {
             0% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
             50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }
