@@ -77,8 +77,16 @@
             text-decoration: none;
             }
        button:hover {
-                       animation: glowing 1300ms infinite;
-           }
+                      animation: glowing 1300ms infinite;
+         }
+        @keyframes glowing {
+            0% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
+            50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }
+            100% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
+        }
+     :click {
+                    animation: glowing 1300ms infinite;
+                }
         @keyframes glowing {
             0% { background-color: #fb0000; box-shadow: 0 0 5px #fb0000; }
             50% { background-color: #fb0000; box-shadow: 0 0 20px #fb0000; }
@@ -139,6 +147,17 @@
         fomt-family: Satisfy&display=swap;
         color: red;
           }
+    </style>
+    <style>
+        wrapper {
+                    width: 400;
+                    padding: 5px 15px;
+                    border: 2px solid black ;
+                    background: transparent;
+                    background-filter: blur(20px);
+                    box-shadow: 0 0 10px #000000;
+                    border-radius: 12px; 
+            }
     </style>
 </head>
 <body>
