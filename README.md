@@ -123,8 +123,7 @@
   <header>
   <h1><center><div><u><font color="white">MY WEB PAGE</font></u></div></center></h1>
   </header>
-    <div class="circle-logo"></div>
-  <center>
+    <div class="circle-logo"></div>  
     <div class="horizontal-menu">
         <h2>
             <a href="#">Home</a>
@@ -132,7 +131,6 @@
             <a href="#">Services</a>
         </h2>
     </div>   
-  </center>
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
     <h6><center><p><font color="white" size="5">Welcome to my website.</font></p></center></h6>
    <center><button type="submit" class="button">asd</button></center>    
