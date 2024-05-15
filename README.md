@@ -99,6 +99,6 @@
     </div>   
   </center>
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
-    <h1><center><p><font color="white">Welcome to my website.</font></p></center></h1>
+    <h1><center><p><font color="white" size="11">Welcome to my website.</font></p></center></h1>
 </body>
 </html>
