@@ -41,7 +41,7 @@
         button {
             width: 100;
             height: 40;
-            background-color: #1c87c9;
+            background-color: #2ba805;
             border-radius: 12px;
             border: none;
             color: #eeeeee;
@@ -62,6 +62,13 @@
             50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }
             100% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
         }
+       button:click {
+                       animation: glowing 1300ms infinite;
+        @keyframes glowing {
+            0% { background-color: #2ba805; box-shadow: 0 0 5px #ca0000; }
+            50% { background-color: #49e819; box-shadow: 0 0 20px #fb0000; }
+            100% { background-color: #2ba805; box-shadow: 0 0 5px #ca0000; }
+           }
     </style>
 <style>
   body {
