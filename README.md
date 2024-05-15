@@ -64,7 +64,7 @@
         }
        </style>
        <style>
-       button:click {
+     a:hover {
                        animation: glowing 1300ms infinite;
         @keyframes glowing {
             0% { background-color: #2ba805; box-shadow: 0 0 5px #fb0000; }
