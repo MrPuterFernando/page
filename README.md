@@ -38,15 +38,25 @@
         }
     </style>
     <style>
-        button {
-                   width: 300;
-                   hight: 200;
-                   border-radius: 25%;
-                   background-color: #3167ef;
-                   border-size: square;
-                   font-size: 25px;
-                   font-family: ulr('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        .button {
+                             background-color: #1c87c9;
+            border-radius: 60px;
+            border: none;
+            color: #eeeeee;
+            cursor: pointer;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 5px 15px;
+            text-align: center;
+            text-decoration: none;
+            animation: glowing 1300ms infinite;
             }
+                @keyframes glowing {
+            0% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
+            50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }
+            100% { background-color: #2ba805; box-shadow: 0 0 5px #2ba805; }
+        }
     </style>
 <style>
   body {
