@@ -38,9 +38,9 @@
         }
     </style>
     <style>
-        .button {
-                             background-color: #1c87c9;
-            border-radius: 60px;
+        button {
+            background-color: #1c87c9;
+            border-radius: 12px;
             border: none;
             color: #eeeeee;
             cursor: pointer;
