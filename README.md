@@ -123,6 +123,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
+             background-filter: blur(20px);
         }
     </style>
     <style>
