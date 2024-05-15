@@ -81,7 +81,7 @@
             width: 200px; 
             height: 200px; 
             border-radius: 50%;
-            background-image: ulr('picture.ico');
+            background-image: ulr ('picture.ico');
             border-size: cover;
         }
     </style>   
