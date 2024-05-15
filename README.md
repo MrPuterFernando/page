@@ -39,6 +39,8 @@
     </style>
     <style>
         button {
+            width: 100;
+            height: 200;
             background-color: #1c87c9;
             border-radius: 12px;
             border: none;
