@@ -132,6 +132,6 @@
   </center>
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
     <h6><center><p><font color="white" size="5">Welcome to my website.</font></p></center></h6>
-   <button type="submit" class="button">asd</button>
+   <center><button type="submit" class="button">asd</button></center>
 </body>
 </html>
