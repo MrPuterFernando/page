@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <style>
         .pacifico-regular {
                             font-family: "Pacifico", cursive;
@@ -15,7 +16,7 @@
     </style>
     <style>
        h1 {
-               font-family: "Pacifico", cursive; 
+               font-family: Pacifico, cursive; 
            }
     </style>
     <style>
@@ -98,7 +99,6 @@
     </div>   
   </center>
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
-    <center><p><font color="white">Welcome to my website.</font></p></center>
-    <button><font color="white">Download</font></button>
+    <h1><center><p><font color="white">Welcome to my website.</font></p></center></h1>
 </body>
 </html>
