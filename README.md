@@ -7,6 +7,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <style>
+        .pacifico-regular {
+                            font-family: "Pacifico", cursive;
+                            font-weight: 400;
+                            font-style: normal;
+                       }
+    </style>
+    <style>
+       h1 {
+               font-family: "Pacifico", cursive; 
+           }
+    </style>
+    <style>
         button {
                    width: 300;
                    hight: 200;
