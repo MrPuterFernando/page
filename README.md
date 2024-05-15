@@ -31,6 +31,11 @@
            }
     </style>
     <style>
+        h2 {
+             font-family: "Bad Script", cursive;   
+        }
+    </style>
+    <style>
         button {
                    width: 300;
                    hight: 200;
@@ -104,14 +109,14 @@
     <div class="circle-logo"></div>
   <center>
     <div class="horizontal-menu">
-        <h1>
+        <h2>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
-        </h1>
+        </h2>
     </div>   
   </center>
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
-    <h1><center><p><font color="white" size="11">Welcome to my website.</font></p></center></h1>
+    <h6><center><p><font color="white" size="11">Welcome to my website.</font></p></center></h6>
 </body>
 </html>
