@@ -75,6 +75,12 @@
             padding: 5px 15px;
             text-align: center;
             text-decoration: none;
+            animation: glowing 1300ms infinite;
+                        @keyframes glowing {
+           0% { background-color: #49e819; box-shadow: 0 0 20px #49e819; } 
+           50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
+           100% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
+           }
        button:hover {
                         animation: glowing 1300ms infinite;
                 }
