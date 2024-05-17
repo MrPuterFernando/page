@@ -126,7 +126,8 @@
             background-color: #f7ff72;
             overflow: hidden;
             border-radius: 12%;
-            box-shadow: 0 0 20px #000000; 
+            box-shadow: 0 0 20px #000000;
+            border-size: square;
         }
       .horizontal-menu a {
             float: left; 
