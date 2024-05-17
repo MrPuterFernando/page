@@ -109,7 +109,7 @@
             height: 200px; 
             border-radius: 50%;
             background-image: url('Screenshot 2024-05-17 204656.png');
-            border-size: cover;
+            border: none;
         }   
    </style>
     <style>
@@ -126,7 +126,7 @@
             background-color: #f7ff72;
             overflow: hidden;
             border-radius: 24%;
-            box-shadow: 0 0 20px #000000;
+            box-shadow: 0 0 12px #000000;
             border-size: cover;
         }
       .horizontal-menu a {
