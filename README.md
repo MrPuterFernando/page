@@ -96,16 +96,7 @@
           font-family: Satisfy&display=swap;
           font-size: 40xp;
     }
-</style>
-    <style>
-        .circle-logo {
-            width: 200px; 
-            height: 200px; 
-            border-radius: 50%;
-            background-image: ulr('Screenshot 2024-05-17 204656.png');
-            border-size: cover;
-        }
-    </style>   
+</style> 
    <style>
         header h1 {
             position: relative;
