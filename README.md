@@ -178,7 +178,7 @@
     <div class="circle-logo"></div>  
     <div class="horizontal-menu">
         <h2>
-            <img src="Screenshot 2024-05-17 204656.png" class="circle-logo">
+            <a href="#"><img src="Screenshot 2024-05-17 204656.png" class="circle-logo"></a>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
