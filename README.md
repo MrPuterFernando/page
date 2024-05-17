@@ -87,7 +87,7 @@
        @keyframes glowing {
            0% { background-color: #49e819; box-shadow: 0 0 20px #49e819; } 
            50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
-           100% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
+           100% { background-color: #49e819; box-shadow: 0 0 20px #49e819;}  
            }
     </style>
 <style>
@@ -124,7 +124,9 @@
     <style>
         .horizontal-menu {
             background-color: #f7ff72;
-            overflow: hidden; 
+            overflow: hidden;
+            border-radius: 12%;
+            box-shadow: 0 0 20px #000000; 
         }
       .horizontal-menu a {
             float: left; 
