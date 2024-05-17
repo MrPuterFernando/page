@@ -173,7 +173,7 @@
             <a href="#">Services</a>
         </h2>
     </div>   
-    <center><div class="font family"><h1><font color="white">Hello, world!</font></h1></div></center>
+    <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
     <h6><center><p><font color="white" size="5">ආයුබෝවන්!!.</font></p></center></h6>
   <center><button type="submit" class="button">asd</button></center>  
 </body>
