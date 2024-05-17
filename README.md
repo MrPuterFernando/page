@@ -127,7 +127,7 @@
             overflow: hidden;
             border-radius: 24%;
             box-shadow: 0 0 20px #000000;
-            border-size: square;
+            border-size: cover;
         }
       .horizontal-menu a {
             float: left; 
