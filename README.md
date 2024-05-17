@@ -103,7 +103,6 @@
             top: 30px; 
             right: 10px; 
         }
-       <style>
         .circle-logo {
             width: 200px; 
             height: 200px; 
@@ -111,7 +110,6 @@
             background-image: ulr('Screenshot 2024-05-17 204656.png');
             border-size: cover;
         }
-    </style>   
    </style>
     <style>
         body {
