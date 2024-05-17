@@ -96,13 +96,15 @@
             top: 30px; 
             right: 10px; 
         }
-        circle-logo {
+       </style>
+    <style>
+       circle-logo {
             width: 200px; 
             height: 200px; 
             border-radius: 50%;
             background-image: url('Screenshot 2024-05-17 204656.png');
             border-size: cover;
-        }  
+        }   
    </style>
     <style>
         body {
