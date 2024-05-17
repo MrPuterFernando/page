@@ -60,6 +60,15 @@
              font-family: "Bad Script", cursive;   
         }
     </style>
+     <style>
+        .circle-logo {
+            width: 200px; 
+            height: 200px; 
+            border-radius: 50%;
+            background-image: ulr('Screenshot 2024-05-17 204656.png');
+            border-size: cover;
+        }
+    </style>   
     <style>
         button {
             width: 100;
@@ -102,13 +111,6 @@
             position: relative;
             top: 30px; 
             right: 10px; 
-        }
-        .circle-logo {
-            width: 200px; 
-            height: 200px; 
-            border-radius: 50%;
-            background-image: ulr('Screenshot 2024-05-17 204656.png');
-            border-size: cover;
         }
    </style>
     <style>
@@ -180,5 +182,6 @@
     <center><div class="font family"><h1><font color="white">Hello, world!</font></h1></div></center>
     <h6><center><p><font color="white" size="5">ආයුබෝවන්!!.</font></p></center></h6>
   <center><button type="submit" class="button">asd</button></center>  
+<img src="Screenshot 2024-05-17 204656.png">
 </body>
 </html>
