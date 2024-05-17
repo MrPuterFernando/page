@@ -60,15 +60,6 @@
              font-family: "Bad Script", cursive;   
         }
     </style>
-     <style>
-        circle-logo {
-            width: 200px; 
-            height: 200px; 
-            border-radius: 50%;
-            background-image: ulr('Screenshot 2024-05-17 204656.png');
-            border-size: cover;
-        }
-    </style>   
     <style>
         button {
             width: 100;
@@ -157,12 +148,12 @@
                     border-radius: 12px; 
             }
     </style>
-     <style>
-        .circle-logo {
+       <style>
+        circle-logo {
             width: 200px; 
             height: 200px; 
             border-radius: 50%;
-            background-image: ulr('Screenshot 2024-05-17 204656.png');
+            background-image: url('Screenshot 2024-05-17 204656.png');
             border-size: cover;
         }
     </style>   
