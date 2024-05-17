@@ -79,7 +79,7 @@
                         animation: glowing 1300ms infinite;
                 }
        @keyframes glowing {
-           0% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }         
+           100% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }         
            }
     </style>
 <style>
