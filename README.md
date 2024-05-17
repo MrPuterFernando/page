@@ -165,8 +165,8 @@
     </style>
        <style>
         .circle-logo {
-            width: 75px; 
-            height: 75px; 
+            width: 50px; 
+            height: 50px; 
             border-radius: 50%;
         }
     </style>   
