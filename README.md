@@ -164,12 +164,10 @@
             }
     </style>
        <style>
-        circle-logo {
+        .circle-logo {
             width: 200px; 
             height: 200px; 
             border-radius: 50%;
-            background-image: url('Screenshot 2024-05-17 204656.png');
-            border-size: cover;
         }
     </style>   
 </head>
@@ -188,6 +186,6 @@
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
     <h6><center><p><font color="white" size="5">ආයුබෝවන්!!.</font></p></center></h6>
   <center><button type="submit" class="button">asd</button></center>  
-    <img src="Screenshot 2024-05-17 204656.png" border radius="50"  border size="cover" width="200" height="200">
+    <img src="Screenshot 2024-05-17 204656.png" class="circle-logo">
 </body>
 </html>
