@@ -92,7 +92,6 @@
 .button {
     animation: glowing 1300ms infinite;
 }
-
        button:hover {
                         animation: glowing 1300ms infinite;
                 }
@@ -115,14 +114,6 @@
             right: 10px; 
         }
        </style>
-    <style>
-       circle-logo {
-            width: 200px; 
-            height: 200px; 
-            border-radius: 50%;
-            background-image: url('Screenshot 2024-05-17 204656.png');
-            border: none;
-        }   
    </style>
     <style>
         body {
