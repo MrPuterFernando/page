@@ -76,11 +76,20 @@
             text-align: center;
             text-decoration: none;
             animation: glowing 1300ms infinite;
-                        @keyframes glowing {
-           0% { background-color: #49e819; box-shadow: 0 0 20px #49e819; } 
-           50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
-           100% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
-           }
+            @keyframes glowing {
+    0% {
+        background-color: #2ba805;
+        box-shadow: 0 0 3px #2ba805;
+    }
+    50% {
+        background-color: #49e819;
+        box-shadow: 0 0 10px #49e819;
+    }
+    100% {
+        background-color: #2ba805;
+        box-shadow: 0 0 3px #2ba805;
+    }
+}
        button:hover {
                         animation: glowing 1300ms infinite;
                 }
