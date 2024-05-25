@@ -61,45 +61,51 @@
         }
     </style>
     <style>
-        button {
-            width: 100;
-            height: 40;
-            background-color: #2ba805;
-            border-radius: 12px;
-            border: none;
-            color: #eeeeee;
-            cursor: pointer;
-            display: inline-block;
-            font-family: sans-serif;
-            font-size: 40px;
-            padding: 5px 15px;
-            text-align: center;
-            text-decoration: none;
-            @keyframes glowing {
-    0% {
-        background-color: #2ba805;
-        box-shadow: 0 0 3px #2ba805;
-    }
-    50% {
-        background-color: #49e819;
-        box-shadow: 0 0 10px #49e819;
-    }
-    100% {
-        background-color: #2ba805;
-        box-shadow: 0 0 3px #2ba805;
-    }
+        .glow-on-hover {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
 }
-.button {
-    animation: glowing 1300ms infinite;
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff007a);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
 }
-       button:hover {
-                        animation: glowing 1300ms infinite;
-                }
-       @keyframes glowing {
-           0% { background-color: #49e819; box-shadow: 0 0 20px #49e819; } 
-           50% { background-color: #49e819; box-shadow: 0 0 20px #49e819; }  
-           100% { background-color: #49e819; box-shadow: 0 0 20px #49e819;}  
-           }
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:active {
+    background: #333;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
     </style>
 <style>
   body {
@@ -194,7 +200,7 @@
     </div>   
     <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
     <h6><center><p><font color="white" size="5">ආයුබෝවන්!!.</font></p></center></h6>
-  <center><button type="submit" class="button">asd</button></center>  
+  <center><button class="glow-on-hover">A.S.D</button></center>  
    
 </body>
 </html>
