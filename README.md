@@ -135,7 +135,7 @@
             height: 10;
             background-color: #f7ff72;
             overflow: hidden;
-            border-radius: 50%;
+            border-radius: 10%;
             box-shadow: 0 0 12px #000000;
             border-size: cover;
         }
