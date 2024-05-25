@@ -132,7 +132,7 @@
     <style>
         .horizontal-menu {
              width: 500;
-            height: 40;
+            height: 10;
             background-color: #f7ff72;
             overflow: hidden;
             border-radius: 24%;
