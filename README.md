@@ -175,9 +175,6 @@
     </style>   
 </head>
 <body>
-  <header>
-  <h1><center><div><u><font color="white">MY WEB PAGE</font></u></div></center></h1>
-  </header>
     <div class="circle-logo"></div>  
     <div class="horizontal-menu">
         <h2>
