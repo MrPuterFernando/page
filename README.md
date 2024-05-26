@@ -19,16 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@100..900&display=swap" rel="stylesheet"> 
     <link href="style.css" rel="stylesheet">
     <style>
-        // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 100 to 900
-    .noto-serif-sinhala-<uniquifier> {
-      font-family: "Noto Serif Sinhala", serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-      font-variation-settings:
-        "wdth" 100;
-    <style>
         .bad-script-regular {
                         font-family: "Bad Script", cursive;
                         font-weight: 400;
