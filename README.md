@@ -99,16 +99,8 @@
           font-family: Satisfy&display=swap;
           font-size: 40xp;
     }
-</style> 
-   <style>
-        header h1 {
-            position: relative;
-            top: 30px; 
-            right: 10px; 
-        }
-       </style>
-   </style>
-    <style>
+</style>
+<style>
         body {
             background-color: #000000;
             background-repeat: no-repeat;
