@@ -153,7 +153,9 @@
             border-size: cover;
         }  
         .horizontal-menu a:hover {
-            background-color: #9ea700;
+            background-color: #fbfbfb;
+            box-shadow: 0 0 10px #000000;
+            border-radius: 12px; 
         }
     </style>
     <style>
