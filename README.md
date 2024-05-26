@@ -28,8 +28,6 @@
       font-style: normal;
       font-variation-settings:
         "wdth" 100;
-}
-    </style>
     <style>
         .bad-script-regular {
                         font-family: "Bad Script", cursive;
