@@ -120,7 +120,7 @@
    </style>
     <style>
         body {
-            background-image: url('Screenshot 2024-05-15 184945.png');
+            background-color: #000000;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
