@@ -1,184 +1,222 @@
-<html>
-<head>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@100..900&display=swap" rel="stylesheet"> 
-    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        .bad-script-regular {
-                        font-family: "Bad Script", cursive;
-                        font-weight: 400;
-                        font-style: normal;
-                        }
-    </style>
-    <style>
-        .pacifico-regular {
-                            font-family: "Pacifico", cursive;
-                            font-weight: 400;
-                            font-style: normal;
-                       }
-    </style>
-    <style>
-        h6{
-                font-family: Noto Serif Sinhala, serif;
-            }
-    </style>
-    <style>
-       h1 {
-               font-family: Pacifico, cursive; 
-           }
-    </style>
-    <style>
-        h2 {
-             font-family: "Bad Script", cursive;   
+        body {
+            font-family: "Lato", sans-serif;
+        }
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .sidenav a {
+            padding: 8px 8px 8px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+        .main {
+            margin-left: 260px;
+			padding-top: 0.01px;
         }
     </style>
-    <style>
-        .glow-on-hover {
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-    font-size: 20px;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff007a);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:active {
-    background: #333;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-
-    </style>
 <style>
-  body {
-          font-family: Satisfy&display=swap;
-          font-size: 40xp;
-    }
+.vertical-line {
+  border-left: 15px solid black;
+	border-right: 15px solid black;
+  height: 1px;
+  background-color: white;
+}
+</style>
+<style>
+buton{
+	displal: flex;
+	border-right: 15px;
+	border-left: 15px
+	border-top: 15px;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px black;
+	background-color: white;
+	font-size: 20px;
+	color: black;
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+}	
+buton a:hover{
+	background-color: white;
+	color: #98F5F9;
+}
+</style>
+<style>
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+			border-radius: 10px;
+	        box-shadow: 0px 1px 10px #4CAF49;	
+        }
+        button:hover {
+            background-color: #45a049;
+        }
 </style>
 <style>
         body {
-            background-color: #000000;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-             background-filter: blur(20px);
+            font-family: Arial, sans-serif;
         }
-    </style>
-    <style>
-        .horizontal-menu {
-             width: 500;
-            height: 10;
-            background-color: #ffffff;
+        .chat-container {
+            width: 100%;
+			height: 100%;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            border-radius: 10%;
-            box-shadow: 0 0 12px #000000;
-            border-size: cover;
+			float: left;
         }
-      .horizontal-menu a {
-            float: left; 
-            display: block;
-            color: black; 
+        .chat-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 1200px 15px 15px;
             text-align: center;
-            padding: 14px 20px; 
-            text-decoration: none; 
+			float: left;
         }
-        circle-logo {
-            width: 200px; 
-            height: 200px; 
-            border-radius: 50%;
-            background-image: url('Screenshot 2024-05-17 204656.png');
-            border-size: cover;
-        }  
-        .horizontal-menu a:hover {
-            background-color: #fbfbfb;
-            box-shadow: 0 0 10px #000000;
-            border-radius: 12px; 
+        .chat-messages {
+            padding: 34px;
+            height: 400px;
+            overflow-y: scroll;
+			padding-top: 100px;
+			color: black;
+        }
+        .message {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .message p {
+            margin: 0;
+        }
+        .message .time {
+            font-size: 0.8em;
+            color: #888;
+        }
+        .delete-button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 8px;
+        }
+        .chat-input {
+            display: flex;
+            border-top: 1px solid #ddd;
+			border-radius: 8px;
+        }
+        .chat-input input {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            border-radius: 8;
+        }
+        .chat-input button {
+            padding: 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+			border-radius: 8px;
         }
     </style>
-    <style>
-      h1 {
-        fomt-family: Satisfy&display=swap;
-        color: red;
-          }
-    </style>
-    <style>
-       text-box {
-                    width: 400;
-                   height: 300;
-                    padding: 5px 15px;
-                    border: 2px solid black ;
-                    background: transparent;
-                    background-filter: blur(20px);
-                    box-shadow: 0 0 10px #000000;
-                    border-radius: 12px; 
-            }
-    </style>
-       <style>
-        .circle-logo {
-            width: 50px; 
-            height: 50px; 
-            border-radius: 50%;
-        }
-    </style>   
 </head>
 <body>
-    <div class="circle-logo"></div>  
-    <div class="horizontal-menu">
-        <h2>
-        <center><a href="#"><img src="Screenshot 2024-05-17 204656.png" class="circle-logo"></a></center>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-        </h2>
-    </div>   
-    <div class="font family"><h1><font color="white">Hello, world!</font></h1></div>
-    <h6><center><p><font color="white" size="5">ආයුබෝවන්!!.</font></p></center></h6>
-  <center><button class="glow-on-hover">A.S.D</button></center>  
-   
+<div class="sidenav">
+	<h1><font color="blue"><u><font style="  border-left: 25px solid black;">MENU</u></font></h1>
+	<p></p>
+    <a href="file:///C:/Users/user/Desktop/3.html"><font color="white">Home.<i class="fa fa-home" aria-hidden="true" style="font-size:35px;color:white;"></i></a>
+	<font color="white"><div class="vertical-line"></div>
+    <a href="file:///C:/Users/user/Desktop/7.html">Sign In.<i class="fa fa-id-card" aria-hidden="true" style="font-size:35px;color:white;"></i></a>
+	<font color="white"><div class="vertical-line"></div>
+    <a href="file:///C:/Users/user/Desktop/8.html">Contact.<i class="fa fa-question-circle" aria-hidden="true"style="font-size:35px;color:white;"></i></a>
+	<font color="white"><div class="vertical-line"></div>
+</div>
+<div class="main">
+    <div class="chat-container">
+        <div class="chat-header">
+        <i class="fa fa-info-circle" aria-hidden="true" style="font-size:50px;color:white;">.Messages</i>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type a message..." border-radius="8px">
+            <button onclick="sendMessage()"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <script>
+        // Load messages from local storage
+        const chatMessages = document.getElementById('chat-messages');
+        let savedMessages = JSON.parse(localStorage.getItem('chatMessages')) || [];
+        savedMessages.forEach((message, index) => {
+            displayMessage(message, index);
+        });
+        // Function to display a message
+        function displayMessage(message, index) {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message');
+            messageElement.innerHTML = `<p><strong>You:</strong> ${message.text}</p><p class="time">${message.time}</p><button class="delete-button" onclick="deleteMessage(this, ${index})">Delete</button>`;
+            chatMessages.appendChild(messageElement);
+        }
+        function sendMessage() {
+            const input = document.getElementById('message-input');
+            const messageText = input.value.trim();
+            if (messageText) {
+                const message = {
+                    text: messageText,
+                    time: new Date().toLocaleTimeString()
+                };
+                // Display the message
+                displayMessage(message, savedMessages.length);
+                // Save the message to local storage
+                savedMessages.push(message);
+                localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
+                // Clear the input
+                input.value = '';
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+        }
+        // Function to delete a message
+        function deleteMessage(button, index) {
+            savedMessages.splice(index, 1);
+            localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
+            chatMessages.innerHTML = '';
+            savedMessages.forEach((message, index) => {
+                displayMessage(message, index);
+            });
+        }
+    </script>   
+</div>
 </body>
 </html>
