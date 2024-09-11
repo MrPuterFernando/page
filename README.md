@@ -161,6 +161,7 @@ buton a:hover{
         <i class="fa fa-info-circle" aria-hidden="true" style="font-size:50px;color:white;">.Messages</i>
         </div>
         <div class="chat-messages" id="chat-messages">
+	<h1><font color="blue"><u><font style="  border-left: 25px solid black;">MENU</u></font></h1>
         </div>
         <div class="chat-input">
             <input type="text" id="message-input" placeholder="Type a message..." border-radius="8px">
@@ -168,13 +169,11 @@ buton a:hover{
         </div>
     </div>
     <script>
-        // Load messages from local storage
         const chatMessages = document.getElementById('chat-messages');
         let savedMessages = JSON.parse(localStorage.getItem('chatMessages')) || [];
         savedMessages.forEach((message, index) => {
             displayMessage(message, index);
         });
-        // Function to display a message
         function displayMessage(message, index) {
             const messageElement = document.createElement('div');
             messageElement.classList.add('message');
@@ -189,17 +188,13 @@ buton a:hover{
                     text: messageText,
                     time: new Date().toLocaleTimeString()
                 };
-                // Display the message
                 displayMessage(message, savedMessages.length);
-                // Save the message to local storage
                 savedMessages.push(message);
                 localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
-                // Clear the input
                 input.value = '';
                 chatMessages.scrollTop = chatMessages.scrollHeight;
             }
         }
-        // Function to delete a message
         function deleteMessage(button, index) {
             savedMessages.splice(index, 1);
             localStorage.setItem('chatMessages', JSON.stringify(savedMessages));
