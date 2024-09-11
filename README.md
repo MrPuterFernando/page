@@ -158,7 +158,6 @@ buton a:hover{
 <div class="main">
     <div class="chat-container">
         <div class="chat-header">
-        <i class="fa fa-info-circle" aria-hidden="true" style="font-size:50px;color:white;">.Messages</i>
         </div>
         <div class="chat-messages" id="chat-messages">
 	<h1><font color="blue"><u><font style="  border-left: 25px solid black;">MENU</u></font></h1>
